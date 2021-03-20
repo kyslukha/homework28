@@ -1,0 +1,13 @@
+#!/bin/bash
+cd IdeaProjects/homework10/src/main/java/ua/com/alevel/planets
+filenames=`ls *.java`
+for eachfile in $filenames
+do
+i=0
+while read
+do
+((i++))
+done < $eachfile
+echo -e "$eachfile -> $i strings"
+done
+
