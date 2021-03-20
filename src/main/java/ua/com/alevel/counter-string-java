@@ -1,4 +1,5 @@
 #!/bin/bash
+# specify the path to the directory of java-files
 cd IdeaProjects/homework10/src/main/java/ua/com/alevel/planets
 filenames=`ls *.java`
 for eachfile in $filenames
